@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">The Video Shop</string>
+
+    <!--Navigation Drawer-->
+    <string name="my_account">My Account</string>
+    <string name="weather">Weather</string>
+    <string name="about_us">About Us</string>
+    <string name="privacy">Privacy</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="username">Guest User</string>
+    <string name="email">Email Here</string>
+    <string name="open_drawer">Open</string>
+    <string name="close_drawer">Close</string>
+    <string name="catalogue">Catalogue</string>
+
+    <!-- WeatherFragment Related-->
+    <string name="weather_api_key">c7f1b5c998bca751cce9c227ead33df8</string>
+    <string name="weather_sunny">&#xf00d;</string>
+    <string name="weather_clear_night">&#xf02e;</string>
+    <string name="weather_foggy">&#xf014;</string>
+    <string name="weather_cloudy">&#xf013;</string>
+    <string name="weather_rainy">&#xf019;</string>
+    <string name="weather_snowy">&#xf01b;</string>
+    <string name="weather_thunder">&#xf01e;</string>
+    <string name="weather_drizzle">&#xf01c;</string>
+    <string name="weather_not_found">Sorry, Weather Data not available</string>
+    <string name="account_info">Account Info</string>
+
+    <!-- Other Text -->
+    <string name="search_catalogue">Search Catalogue</string>
+    <string name="about">Founded in 2018, The Video Shop is a modernised online film store that aims to fulfil your movie needs. We offer a wide collection of movies in various formats such as Blu-ray and DVD. While brick and mortar shops are no longer feasible, we take advantage of our cutting edge supply chain management to offer you the best prices for all your movie needs.
+                    \n\nUpon start up, we have become New Zealand\'s largest and most reliable source for video movies by mail-order. In fact, our customers are only charged after they have received the film, and have. Choose from our ever growing collection of titles and shop with confidence. With a core team made up of video specialists and not data marketers, we know the video industry better than anyone else.
+                    \n\nPlaceholder text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit vero ipsam veritatis, unde saepe vitae maxime, nam repellendus beatae ipsa asperiores officia voluptatem exercitationem quos at eaque aperiam ea rerum.
+    </string>
+    <string name="phone_text">Phone us at: 0800 The Video Shop</string>
+    <string name="email_text">Email us at: support@thevideoshop.com</string>
+    <string name="privacy_text">Here at the Video Shop, we take privacy very seriously. We understand that you entrust us with the storage and management of your personal data. As such, please know we protect your privacy. We will never share or sell your information, and any personal information will be removed upon the closure of your account.
+                    \n\nIf you have any questions regarding our privacy policy, don\'t hesitate to contact us!
+                    \n\nPlaceholder text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit vero ipsam veritatis, unde saepe vitae maxime, nam repellendus beatae ipsa asperiores officia voluptatem exercitationem quos at eaque aperiam ea rerum.
+    </string>
+
+    <!-- MISC -->
+    <string name="small_space">\u0009</string>
+</resources>

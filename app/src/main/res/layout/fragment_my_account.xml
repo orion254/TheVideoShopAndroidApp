@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/darkGray">
+
+    <LinearLayout
+        android:id="@+id/logged_in"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/darkGray">
+
+        <TextView
+            android:id="@+id/fragment_title"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="My Account"
+            android:background="@color/white"
+            android:textColor="@color/darkGray"
+            android:textSize="13dp"  />
+
+        <RelativeLayout
+            android:id="@+id/relative_data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tv_title"
+            android:layout_margin="20dp"
+            android:background="@color/white"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/account_info_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/account_info"
+                android:textStyle="bold"
+                android:textColor="@color/darkGray"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/username_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/account_info_title"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Username:"
+                android:textColor="@color/darkGray"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/username_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/username_label"
+                android:layout_alignBottom="@+id/username_label"
+                android:layout_alignLeft="@+id/first_name_value"
+                android:layout_alignStart="@+id/first_name_value"
+                android:text="User"
+                android:textSize="13dp" />
+
+
+
+            <TextView
+                android:id="@+id/email_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/username_label"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Email:"
+                android:textColor="@color/darkGray"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/email_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/email_label"
+                android:layout_alignBottom="@+id/email_label"
+                android:layout_alignLeft="@+id/first_name_value"
+                android:layout_alignStart="@+id/first_name_value"
+                android:text="email@gmail.com"
+                android:textSize="13dp" />
+
+
+            <TextView
+                android:id="@+id/first_name_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/email_label"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="First Name:"
+                android:textColor="@color/darkGray"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/first_name_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/email_label"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/first_name_label"
+                android:text="First"
+                android:textSize="13dp" />
+
+
+            <TextView
+                android:id="@+id/last_name_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/first_name_label"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Last name:"
+                android:textColor="@color/darkGray"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/last_name_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/first_name_value"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/first_name_label"
+                android:text="Last"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/separator_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/last_name_label"
+                android:layout_marginTop="20dp"
+                android:background="@color/darkGray"
+                android:textSize="13dp" />
+
+
+            <TextView
+                android:id="@+id/recent_purchases_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/last_name_label"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold"
+                android:text="Recent Purchases:"
+                android:textColor="@android:color/black"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/recent_purchases"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recent_purchases_label"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Recent Purchases"
+                android:lineSpacingExtra="3dp"
+                android:textSize="13dp"  />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
