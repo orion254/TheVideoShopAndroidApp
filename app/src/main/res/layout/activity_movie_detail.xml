@@ -56,7 +56,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
-                            android:text="Loading Title"
+                            android:text="Title"
                             android:maxLines="3"
                             android:textSize="25sp"
                             android:textStyle="bold" />
