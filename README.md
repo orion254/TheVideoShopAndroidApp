@@ -1,6 +1,6 @@
 
-# The Video Shop Android App (NWEN438 Project 2)
-The Video Shop Android App is a companion app to [The Video Shop](https://thevideoshop.herokuapp.com/) web application created for project one. This is a fully featured android application which utilises a custom API made available in the back-end. This mobile application aims to provide the same services as the existing web app, while adapting the user experience to suit the mobile platform.
+# The Video Shop Android App
+The Video Shop Android App is a companion app to [The Video Shop](https://thevideoshop.herokuapp.com/) web application. This is a fully featured android application which utilises a custom API made available in the back-end. This mobile application aims to provide the same services as the existing web app, while adapting the user experience to suit the mobile platform.
 
 **General Notes**
 - The application relies on the API hosted along with the web application at [The Video Shop](https://thevideoshop.herokuapp.com/).
